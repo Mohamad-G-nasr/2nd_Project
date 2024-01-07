@@ -1,0 +1,447 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header ul {
+    list-style-type: none;
+    font-size: 19px;
+}
+
+header ul li {
+    display: inline-block;
+    line-height: 45px;
+    margin-left: 35px;
+    font-weight: bold;
+}
+
+.zero {
+    color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: rgb(126, 91, 0);
+    font-size: 15px;
+    border-radius: 50%;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: rgb(126, 91, 0);
+    font-family: sans-serif;
+    
+}
+
+.header2ndlist li {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.list1st  li {
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.li:hover {
+    transition: 1s;
+    border: 3px solid rgb(126, 91, 0);
+}
+
+.table {
+    color: rgb(126, 91, 0);
+    border: 2px solid rgb(126, 91, 0);
+    font-family: sans-serif;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-left: -10px;
+    position: absolute;
+    background-color: white;
+    transform: scale(0,0);
+}
+
+.table table tr th a{
+    text-decoration: underline dotted;
+}
+
+.table table tr th, td{
+    padding-right: 30px;
+}
+
+.li:hover .table {
+    transform: scale(1,1);
+    transition: 0.5S;
+}
+
+
+/* ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ */
+
+main .mainimg {
+    width: 80%;
+    height: fit-content;
+    display: block;
+    margin: auto;
+}
+
+main .mainh2 {
+    margin-top: 40px;
+    font-size: 35px;
+    line-height: 25px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+main .mainp {
+    width: 10%;
+    margin: auto;
+    text-align: center;
+    color: rgb(126, 91, 0);
+    font-size: 25px;
+    transition: .5s;
+}
+
+.maindiv:hover p {
+    transform: scale(2,1);
+}
+
+.maindiv2nd {
+    width: 80%;
+    height: fit-content;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.maindiv2nd div {
+    width: 310px;
+}
+
+.maindiv2nd div img {
+    width: 310px;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+
+.maindiv2nd div p {
+    color: rgb(91, 89, 89);
+}
+
+.maindiv2nd div h2 {
+    width: 87%;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.maindiv2nd div i {
+    font-size: 30px;
+    color: brown;
+    visibility: hidden;
+}
+
+.maindiv2nd div:hover i {
+    visibility: visible;
+}
+
+/* ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ */
+
+
+.maindiv3rd {
+    width: 80%;
+    height: fit-content;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.maindiv3rd-1 {
+    width: 620px;
+    height: 300px;
+    background-color: rgb(247, 243, 239);
+}
+
+.maindiv3rd-1 i {
+    font-size: 60px;
+    color: rgb(123, 82, 68);
+    margin: 15px 2px 20px 25px;
+}
+
+.maindiv3rd-1 .headline1 {
+    display: inline-block;
+}
+
+.mainpara {
+    margin: 0px 30px;
+    line-height: 35px;
+}
+
+.maindiv3rd ul {
+    list-style-type: none;
+    width: 200px;
+    margin: 20px 15px 15px 400px;
+}
+
+.maindiv3rd ul li {
+    display: inline-block;
+    color: rgb(123, 82, 68);
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.maindiv3rd-2 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../Images/cms-banner-1.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    padding: 20px 0px 0px 20px;
+}
+
+.maindiv3rd-3 {
+    width: 300px;
+    height: 300px;
+    background-image: url(../Images/cms-banner-2.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px 0px 0px 20px;
+    transition: 0.5s;
+}
+
+.maindiv3rd-2:hover, .maindiv3rd-3:hover {
+    transform: scale(1.1,1.1);
+}
+
+/* ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ */
+
+
+.maindiv4th {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.maindiv4th p {
+    color: gray;
+}
+
+.maindiv4th-01,
+ .maindiv4th-02,
+  .maindiv4th-03,
+   .maindiv4th-04,
+    .maindiv4th-05 {
+    width: 20%;
+    height: 100px;
+}
+
+.maindiv4th-02, .maindiv4th-03, .maindiv4th-04, .maindiv4th-05 {
+    border-left: 1px solid rgb(123, 82, 68);
+}
+
+.main4thimg1 {
+    width: 16%;
+    height: 49%;
+    margin: 2px auto;
+    background-image: url(../Images/service-icon.png);
+    background-position: center 10px;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+.maindiv4th-01:hover .main4thimg1 {
+    background-position: center -90px;
+}
+
+.main4thimg2 {
+    width: 16%;
+    height: 49%;
+    margin: 2px auto;
+    background-image: url(../Images/service-icon.png);
+    background-position: center -180px;
+    transition: 0.5s;
+}
+
+.maindiv4th-02:hover .main4thimg2 {
+    background-position: center -270px;
+}
+
+.main4thimg3 {
+    width: 16%;
+    height: 49%;
+    margin: 2px auto;
+    background-image: url(../Images/service-icon.png);
+    background-position: center -370px;
+    transition: 0.5s;
+}
+
+
+.maindiv4th-03:hover .main4thimg3 {
+    background-position: center -460px;
+}
+
+.main4thimg4 {
+    width: 16%;
+    height: 49%;
+    margin: 2px auto;
+    background-image: url(../Images/service-icon.png);
+    background-position: center -550px;
+    transition: 0.5s;
+}
+
+
+.maindiv4th-04:hover .main4thimg4 {
+    background-position: center -640px;
+}
+
+.main4thimg5 {
+    width: 16%;
+    height: 45%;
+    margin: 2px auto;
+    background-image: url(../Images/service-icon.png);
+    background-position: center -740px;
+    transition: 0.5s;
+}
+
+
+.maindiv4th-05:hover .main4thimg5 {
+    background-position: center -825px;
+}
+
+/* ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ */
+
+
+.maindiv5th {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.maindiv5th-1st h2 {
+    font-size: 40px;
+}
+
+.maindiv5th-1st p {
+    line-height: 5px; 
+    color:rgb(126, 91, 0); 
+    transition: 0.5s; 
+    font-size: 20px;
+    width: fit-content;
+    margin: auto;
+}
+
+.maindiv5th-1st:hover  p {
+    transform: scale(2 , 1);
+}
+
+.maindiv5th-2nd {
+    width: fit-content;
+    margin: 40px auto;
+}
+
+.maindiv5th-2nd ul {
+    list-style-type: none;
+}
+
+.maindiv5th-2nd ul li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.maindiv5th-3rd {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.maindiv5th-3-1st,
+ .maindiv5th-3-2nd,
+  .maindiv5th-3-3rd {
+    margin-bottom: 40px;
+  }
+
+.maindiv5th-3-1st .foot ul,
+ .maindiv5th-3-2nd .foot ul,
+  .maindiv5th-3-3rd .foot ul {
+    list-style-type: none;
+}
+
+.maindiv5th-3-1st .foot ul li,
+ .maindiv5th-3-2nd .foot ul li,
+  .maindiv5th-3-3rd .foot ul li {
+    display: inline-block;
+    color: gold;
+}
+
+.foot {
+    text-align: left;
+    line-height: 25px;
+}
+
+.maindiv5th-3-1st .head,
+ .maindiv5th-3-2nd .head,
+  .maindiv5th-3-3rd .head {
+    position: relative;
+}
+
+.maindiv5th-3-1st .head div,
+ .maindiv5th-3-2nd .head div,
+  .maindiv5th-3-3rd .head div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    transition: 0.5s;
+    transform: rotateY(90deg);
+}
+
+.maindiv5th-3-1st .head ul,
+  .maindiv5th-3-2nd .head ul,
+   .maindiv5th-3-3rd .head ul {
+    position: absolute;
+    list-style-type: none;
+    top: 40%;
+    right: 30%;
+    transform: translate(0%, -50%);
+    transition: 0.5s;
+    transform: rotateY(90deg);
+}
+
+.maindiv5th-3-1st .head ul li,
+  .maindiv5th-3-2nd .head ul li,
+   .maindiv5th-3-3rd .head ul li {
+    display: inline-block;
+    color: rgb(123, 82, 68);
+    font-size: 40px;
+}
+
+.maindiv5th-3-1st:hover .head ul,
+  .maindiv5th-3-2nd:hover .head ul,
+   .maindiv5th-3-3rd:hover .head ul  {
+    transform: rotateY(0deg);
+}
+
+.maindiv5th-3-1st:hover .head div,
+  .maindiv5th-3-2nd:hover .head div,
+   .maindiv5th-3-3rd:hover .head div  {
+    transform: rotateY(0deg);
+    opacity: 0.95;
+}
